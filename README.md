@@ -49,6 +49,11 @@ En esta seccion se muestra como iniciar un proyecto en github.
     ![Muestra](/Imagenes/Screenshot%20from%202020-08-07%2021-00-09.png)
    
    * Ahora usaremos el comando clone que creara una copia del proyecto en github de manera local.
-    ![clone](/Imagenes/Screenshot%20from%202020-08-07%2021-02-49.png)
+   
+    ```
+    git push origin master
+    ```
+    
+   ![clone](/Imagenes/Screenshot%20from%202020-08-07%2021-02-49.png)
 
    
