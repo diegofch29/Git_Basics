@@ -21,10 +21,6 @@ En esta seccion se muestra como iniciar un proyecto en github.
    En la carpeta Git_Basics_Taller guardamos el proyecto que deseamos guardar en este caso usamos el problema de hackerrank [Angrams](https://www.hackerrank.com/challenges/java-anagrams/problem)
    
   ![ICreacion del proyecto](Imagenes/Screenshot%20from%202020-08-07%2014-39-59.png)
-  
-  * Lo primero que debemos hacer en ingresar a github y crear un repositorio
-  
-    ![Creacion del proyecto](Imagenes/Screenshot%20from%202020-08-07%2020-58-42.png)
     
     
   * Con la siguiente linea agregamos los archivos creados y cambios que se hicieron al repositorio localmente, el punto inidica que se agregaran todos los archivos      tambien podemos agregar archivos especificos al agregar la direccion donde se encuentra el archivo
@@ -35,3 +31,21 @@ En esta seccion se muestra como iniciar un proyecto en github.
     ```
     Git commit -m "mensage"
     ``` 
+## Usando github
+
+   * Lo primero que debemos hacer en ingresar a github y crear un repositorio.
+  
+   ![Creacion del repositorio](Imagenes/Screenshot%20from%202020-08-07%2020-58-42.png)
+   
+   * La siguiente linea conectara el repositorio local con el repositorio creado en github.
+   ```
+   git remote add origin <server>
+   ```
+   * La siguiente linea agregara los archivos a los que se les hizo commit a la rama principal en el repositorio en github.
+   ```
+   git push origin master
+   ```
+   * La imagen muestra las salidas de las lineas anteriores.
+    ![Muestra](/Imagenes/Screenshot%20from%202020-08-07%2021-00-09.png)
+
+   
