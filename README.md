@@ -56,4 +56,10 @@ En esta seccion se muestra como iniciar un proyecto en github.
     
    ![clone](/Imagenes/Screenshot%20from%202020-08-07%2021-02-49.png)
 
+   * Despues de clonar el repositorio en una nueva carpeta se modifico el repositorio al agregar la solucion de un otro problea de hackerrank [End of file](https://www.hackerrank.com/challenges/java-end-of-file/problem) y despues se realizo un push.
    
+   ![push](/Imagenes/Screenshot%20from%202020-08-07%2022-48-47.png)
+   
+  *Estando el la carpeta original del proyecto realizamos un pull, utilizado para actualizar el repositorio local con el repositorio en github.
+    
+   ![push](/Imagenes/Screenshot%20from%202020-08-07%2022-51-16.png)
